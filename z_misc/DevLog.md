@@ -13,9 +13,10 @@
         - [Backend](#backend-1)
         - [Development Tools](#development-tools)
 2. [Entries](#entries)
-    - [Date: 2024-09-24](#date-2024-09-24)
+    - [Date: 2024-09-21](#date-2024-09-21)
     - [Empty Entry](#date-yyyy-mm-dd)
 3. [Summary](#summary)
+4. [Folder Structure](#folder-structure)
 
 ## **Technologies/Dependencies**
 
@@ -55,7 +56,7 @@
 
 ## Entries
 
-### [Date: 2024-09-24]
+### [Date: 2024-09-21]
 **Task:**
 - Setup basic structure of repository and simple, locally-hosted landing page.
 
@@ -108,3 +109,6 @@
 
 ## Summary
 - Brief summary of the overall progress and any important notes.
+
+## Folder Structure
+![Folder Structure Image](./img/folder-structure.png)
