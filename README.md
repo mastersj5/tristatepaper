@@ -1,4 +1,3 @@
-# tristatepaper
 # TriStatePaper Multi-Page Website Application
 
 ## Table of Contents
