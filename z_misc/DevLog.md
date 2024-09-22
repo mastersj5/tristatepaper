@@ -90,8 +90,26 @@
     - Regular Commits with descriptive commit messages (good practice in case anything breaks and needs to be referenced).
     - Pushing to GitHub remote repository to keep it in in sync and create backups.
 
+Instead of fully coding out each and every component, setting up the express server with middleware that I have not used before along with a mongoDB database, and then connecting the frontend and backend with API routes, how can I start testing and visualizing my components right away since much of this is new to me?
+
+The answer? Storybook.
+
+- Ran `npx sb init` in the `client` folder
+- Used Vite builder over Webpack 5 since it is more modern wheras Webpack is better for older browsers not using ES Modules
+    - [Vite vs Webpack](https://dev.to/sidramaqbool/vite-vs-webpack-which-one-and-why-for-your-next-react-app-the-battle-of-bundlers-c6b)
+- Created new folder `src/stories` to build components in
+- Best to hardcode sample data and potentially create mock API calls (with `msw` Mock Service Worker)
+- To run Storybook manually, run `npm run storybook` in the `client` folder. CTRL+C to stop.
+**Gradually Integrate Backend:**
+- *Set up a Basic Express Server:* Once ready, create a simple Express server in `server` folder. Start with basic routing and serving static files (the built React app).
+- *Connect to MongoDB:* If needing to test data persistence, set up a local or cloud-based MongoDB instance and connect it to the Express server.
+- *Build API Endpoints Gradually:* As I progress, add API endpoints to the server to fetch and update data.
+
+
 **Status:**
 - In Progress
+- Currently creating basic frontend react components and testing them on the following website:
+- [Storybook Playground](http://localhost:6006/?path=/story/example-button--primary&onboarding=true)
 
 ---
 
