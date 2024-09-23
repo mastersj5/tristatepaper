@@ -130,3 +130,8 @@ dist
 .pnp.*
 
 *storybook.log
+
+# storybook and ladle
+.storybook/
+.my-ladle/
+.stories/
