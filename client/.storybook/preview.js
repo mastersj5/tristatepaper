@@ -1,3 +1,4 @@
+import { withDesign } from 'storybook-addon-designs';
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -8,6 +9,7 @@ const preview = {
       },
     },
   },
+  decorators: [withDesign],
 };
 
 export default preview;

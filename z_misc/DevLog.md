@@ -105,11 +105,39 @@ The answer? Storybook.
 - *Connect to MongoDB:* If needing to test data persistence, set up a local or cloud-based MongoDB instance and connect it to the Express server.
 - *Build API Endpoints Gradually:* As I progress, add API endpoints to the server to fetch and update data.
 
+- Currently creating basic frontend react components and testing them on the following website:
+- [Storybook Playground](http://localhost:6006/?path=/story/example-button--primary&onboarding=true)
+
+9.22-23.24 Update:
+- Further testing with Storybook and moving over to Ladle: 
+
+https://storybook.js.org/ 
+
+https://ladle.dev/ 
+
+- Due to the extensive potential timesinks of just setting up Storybook for testing react components, it is not worthwhile as a solo developer to waste that time. 
+
+- After researching and digging across forums online, the much more lightweight component testing tool called Ladle, is a much better choice for my current needs. It is effective at prioritizing efficiency with simplicity and focus on speed instead of getting me bogged down in the configuration complexities. 
+
+- Start the ladle server with `npx ladle serve` once in `client/my-ladle`.
+
+- Used the following set of commands in `client` dir for basic setup:
+```
+mkdir my-ladle
+cd my-ladle
+npm init --yes
+npm install @ladle/react react react-dom
+mkdir src
+echo "export const World = () => <p>Hey</p>;" > src/hello.stories.tsx
+npx ladle serve
+```
+
 
 **Status:**
 - In Progress
-- Currently creating basic frontend react components and testing them on the following website:
-- [Storybook Playground](http://localhost:6006/?path=/story/example-button--primary&onboarding=true)
+
+- Switching over to Ladle for component testing instead of Storybook due to the extensive configuration/setup timesink of Storybook. 
+
 
 ---
 

@@ -1,10 +1,12 @@
 {
   "dependencies": {
+    "@ladle/react": "^4.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.9.0",
+    "@storybook/addon-designs": "^8.0.3",
     "@storybook/addon-essentials": "^8.3.2",
     "@storybook/addon-interactions": "^8.3.2",
     "@storybook/addon-links": "^8.3.2",
@@ -14,7 +16,8 @@
     "@storybook/react-vite": "^8.3.2",
     "@storybook/test": "^8.3.2",
     "prop-types": "^15.8.1",
-    "storybook": "^8.3.2"
+    "storybook": "^8.3.2",
+    "storybook-addon-designs": "^6.3.1"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
