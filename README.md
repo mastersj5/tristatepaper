@@ -32,9 +32,9 @@ npm start
 ```
 Open your browser and navigate to `http://localhost:3000` to view the application.
 
-#### Last Updated: Sept. 21st, 2024
+#### Last Updated: Sept. 23rd, 2024
 
-# /-/-/ W.I.P. BELOW (not accurate as of 9.21.2024) /-/-/
+# /-/-/ W.I.P. BELOW (not correct as of 9.23.2024) /-/-/
 
 ## Contributing
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.
