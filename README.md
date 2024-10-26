@@ -26,15 +26,17 @@ To install the application, follow these steps:
 3. Install dependencies: `npm install`
 
 ## Usage
-To start the application, run:
+To start the application, cd into `./client` (for clientside) and run:
 ```
 npm start
 ```
 Open your browser and navigate to `http://localhost:3000` to view the application.
 
-#### Last Updated: Sept. 23rd, 2024
+To quit/close the localhost server, use `Ctrl+C`.
 
-# /-/-/ W.I.P. BELOW (not correct as of 9.23.2024) /-/-/
+#### Last Updated: Oct. 26h, 2024
+
+# /-/-/ W.I.P. BELOW (not correct as of 10.26.2024) /-/-/
 
 ## Contributing
 We welcome contributions! Please read our [contributing guidelines](CONTRIBUTING.md) for more details.

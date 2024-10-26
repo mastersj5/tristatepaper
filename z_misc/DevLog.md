@@ -14,7 +14,9 @@
         - [Development Tools](#development-tools)
 2. [Entries](#entries)
     - [Date: 2024-09-21](#date-2024-09-21)
-    - [Empty Entry](#date-yyyy-mm-dd)
+    - [Date: 2024-09-22 to 2024-09-23](#date-2024-09-22-to-2024-09-23)
+    - [Date: 2024-10-26](#date-2024-10-26)
+    - [Empty Template Entry](#date-yyyy-mm-dd)
 3. [Summary](#summary)
 4. [Folder Structure](#folder-structure)
 
@@ -108,7 +110,29 @@ The answer? Storybook.
 - Currently creating basic frontend react components and testing them on the following website:
 - [Storybook Playground](http://localhost:6006/?path=/story/example-button--primary&onboarding=true)
 
-9.22-23.24 Update:
+---
+
+### [Date: 2024-09-22 to 2024-09-23]
+**Task:**
+- Update and refine project setup and initial components.
+
+**Details:**
+1. Refine Project Structure
+    - Ensure the `client` and `server` folders are properly organized.
+    - Update `package.json` files in both `client` and `server` folders to include necessary scripts and dependencies.
+
+2. Enhance Frontend Components
+    - Continue building out React components in the `client/src` directory.
+    - Implement basic styling and layout using CSS or a CSS framework.
+
+3. Backend Improvements
+    - Add more routes and middleware to the Express server.
+    - Set up basic CRUD operations for MongoDB collections.
+
+4. Testing and Debugging
+    - Use Ladle to test and visualize React components.
+    - Debug any issues with the initial setup and components.
+
 - Further testing with Storybook and moving over to Ladle: 
 
 https://storybook.js.org/ 
@@ -138,6 +162,24 @@ npx ladle serve
 
 - Switching over to Ladle for component testing instead of Storybook due to the extensive configuration/setup timesink of Storybook. 
 
+---
+
+### [Date: 2024-10-26]
+**Task:**
+- Fully setup the basic files and functionalities to get the React app up and running with npm start.
+
+**Details:**
+Complete the following files:
+- package.json: This file should include the necessary dependencies and scripts to start the React application.
+
+- src/index.js: The entry point for the React application.
+
+- App.jsx: The main component of the React application.
+
+- public/index.html: The HTML template for the React application.
+
+**Status:**
+- Completed
 
 ---
 
